@@ -2,8 +2,8 @@
 .data
 
 .text 
-#.globl  main
+.globl  main
 main:
 	li $v0, 10	# The exit system call 
-	syscall		# Calling the OS to perfom executio
+	syscall		# Calling the OS to perfom execution
 	
