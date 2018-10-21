@@ -59,6 +59,13 @@ main:
         syscall
 
         addi $a0, $a0, 30 # r (114)	
+	syscall
+
+        addi $a0, $a0, -17 # a (97)
+        syscall
+
+        addi $a0, $a0, 21 # v (118)
+        syscall
 	
 	li $v0, 10		# The exit system call 
 	syscall			# Calling the OS to perfom execution
